@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main" class="main">
+        <nav>
+            <p class="logo">PraRoz</p>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Contact</a></li>
+            <input class="i1" type="text" placeholder="Type To Text"><button class="click">Search</button>
+        </nav>
+      <div class="body">
+        <div>
+        <p id="head"  class="head">Web Design &</p> <p class="head1">Developement</p> <p class="head2">Course</p>
+        <p id="para" onmouseover="newChange()" onmouseout="oldChange()" class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam facilis incidunt, at dolorum natus quis odit, vitae nobis autem eligendi maxime consequuntur esse soluta illum placeat corrupti! Neque, officiis ea.</p>
+         <button id="join" onmouseover="onOver()" onmouseout="onOUt()" class="click1">Join Us</button></div>
+         <form onsubmit="getEmail(event)" onmouseover="style=' box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;'" onmouseout="style= 'box-shadow: rgb(50, 50, 93) 0px 30px 60px -12px inset, rgb(0, 0, 0) 0px 18px 36px -18px inset;'">
+            <button onclick="alert('You are Login!')" class="click2">Login Here</button>
+            <input id="email" class="i2 " type="email" placeholder=" Email Here">
+            <hr>
+            <input id="password" class="i3" type="password"  placeholder= "Enter Password Here">
+            <hr>
+            <input type="submit" class="click3" value="Login">
+            <p class="l1">Don't have an account</p>
+            <a class="sign" href="JavaScript:void(0)">Sing Up</a> <p class="l2">here</p>
+            <p class="l3">Login With</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-skype"></i>
+         </form>
+      </div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
